@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Kaushan";
+  src: url("../Fonts/KaushanScript-Regular.ttf");
+}
+
+.portfolio {
+  background-color: rgb(94, 0, 0);
+  height: 665px;
+}
+
+.portfolio-title {
+  font-family: "Kaushan";
+  font-size: 70px;
+  text-align: center;
+  color: white;
+}
+
+.carousel-container {
+  width: 700px;
+  text-align: center;
+  margin-left: 440px;
+}
