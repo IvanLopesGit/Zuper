@@ -16,7 +16,7 @@
 }
 
 .contact-name {
-  padding-top: 215px;
+  padding-top: 35px;
   text-align: center;
   font-size: 35px;
   color: white;
@@ -32,6 +32,13 @@
 
 .contact-mail a {
   text-decoration: none;
+  color: white;
+}
+
+.contact-budget {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 25px;
   color: white;
 }
 

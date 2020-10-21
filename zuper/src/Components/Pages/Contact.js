@@ -8,12 +8,24 @@ export default function Contact() {
     <>
       <div className="contact">
         <div className="contact-text">
+          <div className="contact-budget">
+            Para solicitar um orçamento, <br />
+            envie uma mensagem para o e-mail baixo. <br />
+            Especifique detalhadamente o que você precisa.
+            <br />
+            Exemplo: <br />- Qual o seu projeto;
+            <br /> - Quantas imagens irá conter;
+            <br /> - Fonte desejada;
+            <br />
+            - Quantidade de páginas; <br />
+            - entre outras informações relevantes.
+            <br />
+          </div>
           <div className="contact-name">Ivan</div>
           <div className="contact-mail">
             E-mail:{" "}
             <a href="mailto:falecomzuper@gmail.com">falecomzuper@gmail.com</a>{" "}
           </div>
-
           <div className="media">
             <div className="redesocial">
               <div className="rede">
