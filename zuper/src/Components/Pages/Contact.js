@@ -9,7 +9,10 @@ export default function Contact() {
       <div className="contact">
         <div className="contact-text">
           <div className="contact-name">Ivan</div>
-          <div className="contact-mail">E-mail: falecomzuper@gmail.com</div>
+          <div className="contact-mail">
+            E-mail:{" "}
+            <a href="mailto:falecomzuper@gmail.com">falecomzuper@gmail.com</a>{" "}
+          </div>
 
           <div className="media">
             <div className="redesocial">
