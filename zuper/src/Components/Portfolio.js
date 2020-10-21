@@ -7,6 +7,7 @@ function Releases() {
   return (
     <div className="portfolio">
       <div className="portfolio-title">Portfólio</div>
+      <div className="mrband">Mario Rossi Band</div>
       <div className="carousel-container">
         <Carousel
           showStatus={false}
@@ -45,6 +46,16 @@ function Releases() {
             <p className="legend">Clipping</p>
           </div>
         </Carousel>
+        <div className="mrband-site">
+          Site:{" "}
+          <a
+            href="https://mariorossiband.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Acesse
+          </a>
+        </div>
       </div>
     </div>
   );

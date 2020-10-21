@@ -104,7 +104,7 @@
   opacity: 1;
   transition: all 0.5s ease;
   z-index: 1;
-  /* background-image: url(../Images/background.png); */
+  /* background-image: url(../Images/menu-back.png); */
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -185,10 +185,6 @@
 }
 
 @media screen and (max-width: 800px) {
-  .subtitle {
-    display: none;
-  }
-
   .NavbarItems {
     position: relative;
   }
@@ -232,10 +228,6 @@
     height: 55px;
     width: 50px;
     margin-right: 60px;
-  }
-
-  .navbar-logo {
-    display: none;
   }
 
   .menu-icon {

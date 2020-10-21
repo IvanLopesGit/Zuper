@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Kaushan";
+  src: url("../../Fonts/KaushanScript-Regular.ttf");
+}
+
+.customers {
+  display: flex;
+  height: 660px;
+  background-color: rgb(94, 0, 0);
+  background-image: url(../../Images/background.png);
+}
+
+.customers-modal {
+  width: 100%;
+  text-align: center;
+}
+
+.customers-mrband {
+  height: 45px;
+  margin-top: 55px;
+  width: 230px;
+}

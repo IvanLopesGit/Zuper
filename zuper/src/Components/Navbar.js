@@ -25,17 +25,25 @@ function NavBar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/Sobre" className="nav-links" onClick={closeMobileMenu}>
                 Sobre
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Orçamentos
+              <Link
+                to="/Clientes"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Clientes
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/Contato"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Contato
               </Link>
             </li>

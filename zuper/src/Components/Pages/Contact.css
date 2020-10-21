@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Kaushan";
+  src: url("../../Fonts/KaushanScript-Regular.ttf");
+}
+
+.contact {
+  display: flex;
+  height: 660px;
+  width: 100%;
+  background-color: rgb(94, 0, 0);
+  background-image: url(../../Images/background.png);
+}
+
+.contact-text {
+  width: 100%;
+}
+
+.contact-name {
+  padding-top: 215px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: "Kaushan";
+}
+
+.contact-mail {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: "Kaushan";
+}
+
+.redesocial {
+  margin-top: 50px;
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+
+.rede {
+  position: relative;
+  list-style: none;
+  width: 35px;
+  height: 35px;
+  margin: 0 30px;
+  transform: rotate(-30deg) skew(25deg);
+  background: #ccc;
+}
+
+.rede span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  transition: 0.5s;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px !important;
+}
+
+.rede:hover span {
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.rede:hover span:nth-child(5) {
+  transform: translate(40px, -40px);
+  opacity: 1;
+}
+
+.rede:hover span:nth-child(4) {
+  transform: translate(30px, -30px);
+  opacity: 0.8;
+}
+
+.rede:hover span:nth-child(3) {
+  transform: translate(20px, -20px);
+  opacity: 0.6;
+}
+
+.rede:hover span:nth-child(2) {
+  transform: translate(10px, -10px);
+  opacity: 0.4;
+}
+
+.rede:hover span:nth-child(1) {
+  transform: translate(0, 0);
+  opacity: 0.2;
+}
+
+.redesocial:nth-child(1) span {
+  background: #3b5999;
+}
+
+.redesocial:nth-child(2) span {
+  background: #dd4b39;
+}

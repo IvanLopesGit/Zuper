@@ -5,6 +5,8 @@
 
 .portfolio {
   background-color: rgb(94, 0, 0);
+  background-image: url(../Images/background.png);
+  background-repeat: repeat;
   height: 665px;
 }
 
@@ -13,10 +15,115 @@
   font-size: 70px;
   text-align: center;
   color: white;
+  text-decoration: underline;
 }
 
 .carousel-container {
   width: 700px;
-  text-align: center;
   margin-left: 440px;
+}
+
+.mrband {
+  color: white;
+  font-size: 30px;
+  font-family: "Kaushan";
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 15px;
+}
+
+.mrband-site {
+  color: white;
+  font-size: 25px;
+  font-family: "Kaushan";
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.mrband-site a {
+  text-decoration: none;
+  color: white;
+  font-family: "Kaushan";
+}
+
+@media only screen and (max-width: 1500px) {
+  .carousel-container {
+    width: 700px;
+    margin-left: 400px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .carousel-container {
+    width: 700px;
+    margin-left: 350px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .carousel-container {
+    width: 700px;
+    margin-left: 300px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .carousel-container {
+    width: 700px;
+    margin-left: 240px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .carousel-container {
+    width: 700px;
+    margin-left: 190px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .carousel-container {
+    width: 700px;
+    margin-left: 140px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .carousel-container {
+    width: 600px;
+    margin-left: 140px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .carousel-container {
+    width: 600px;
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .carousel-container {
+    width: 400px;
+    margin-left: 130px;
+  }
+
+  .portfolio {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-container {
+    width: 400px;
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-container {
+    width: 400px;
+    margin-left: 40px;
+  }
 }
