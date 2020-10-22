@@ -89,24 +89,22 @@
 .nav-menu {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 91.6vh;
+  width: 370px;
+  height: 78.8vh;
   position: absolute;
   top: 85px;
+  margin-left: 1210px;
   left: -100%;
   opacity: 1;
-  transition: all 0.5s ease;
+  transition: all 1.2s ease;
 }
 
 .nav-menu.active {
   left: 0;
   background-color: #290000;
   opacity: 1;
-  transition: all 0.5s ease;
+  transition: all 1.2s ease;
   z-index: 1;
-  /* background-image: url(../Images/menu-back.png); */
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .nav-links {
@@ -166,24 +164,6 @@
   transition: 250ms;
 }
 
-@media screen and (max-width: 1150px) {
-  .subtitle {
-    height: 35px;
-    width: 240px;
-    color: rgba(141, 141, 141, 0.8);
-    margin-left: 250px;
-  }
-}
-
-@media screen and (max-width: 1115px) {
-  .subtitle {
-    height: 35px;
-    width: 240px;
-    color: rgba(141, 141, 141, 0.8);
-    margin-left: 240px;
-  }
-}
-
 @media screen and (max-width: 800px) {
   .NavbarItems {
     position: relative;
@@ -221,13 +201,6 @@
     background-color: #fff;
     color: #242424;
     border-radius: 0;
-  }
-
-  .logomin {
-    display: block;
-    height: 55px;
-    width: 50px;
-    margin-right: 60px;
   }
 
   .menu-icon {
