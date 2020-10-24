@@ -94,7 +94,7 @@
   position: absolute;
   top: 85px;
   margin-left: 1210px;
-  left: -100%;
+  left: -200%;
   opacity: 1;
   transition: all 1.2s ease;
 }
@@ -164,19 +164,11 @@
   transition: 250ms;
 }
 
-@media screen and (max-width: 1600px) {
-  .nav-menu {
-    width: 370px;
-    height: 73.5vh;
-    margin-left: 1202px;
-  }
-}
-
 @media screen and (max-width: 1500px) {
   .nav-menu {
     width: 276px;
     height: 72.9vh;
-    margin-left: 1202px;
+    margin-left: 1140px;
   }
 }
 
@@ -184,7 +176,7 @@
   .nav-menu {
     width: 250px;
     height: 72.9vh;
-    margin-left: 1120px;
+    margin-left: 1042px;
   }
 }
 
@@ -192,7 +184,7 @@
   .nav-menu {
     width: 250px;
     height: 72.9vh;
-    margin-left: 1022px;
+    margin-left: 960px;
   }
 }
 
@@ -200,7 +192,7 @@
   .nav-menu {
     width: 250px;
     height: 72.9vh;
-    margin-left: 922px;
+    margin-left: 865px;
   }
 }
 
@@ -208,7 +200,7 @@
   .nav-menu {
     width: 250px;
     height: 72.9vh;
-    margin-left: 822px;
+    margin-left: 790px;
   }
 }
 
@@ -216,7 +208,7 @@
   .nav-menu {
     width: 250px;
     height: 72.9vh;
-    margin-left: 722px;
+    margin-left: 650px;
   }
 }
 
@@ -232,7 +224,7 @@
   .nav-menu {
     width: 250px;
     height: 72.9vh;
-    margin-left: 522px;
+    margin-left: 500px;
   }
 }
 
@@ -240,7 +232,7 @@
   .nav-menu {
     width: 250px;
     height: 72.9vh;
-    margin-left: 420px;
+    margin-left: 337px;
   }
 }
 
@@ -248,7 +240,7 @@
   .nav-menu {
     width: 250px;
     height: 72.9vh;
-    margin-left: 320px;
+    margin-left: 265px;
   }
 }
 
