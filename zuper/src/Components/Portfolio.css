@@ -127,3 +127,34 @@
     margin-left: 40px;
   }
 }
+
+@media only screen and (max-width: 411px) {
+  .carousel-container {
+    width: 300px;
+    margin-left: 57px;
+  }
+
+  .portfolio {
+    height: 550px;
+  }
+}
+
+@media only screen and (max-height: 823px) {
+  .portfolio {
+    height: 650px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .carousel-container {
+    width: 300px;
+    margin-left: 31px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .carousel-container {
+    width: 250px;
+    margin-left: 31px;
+  }
+}
