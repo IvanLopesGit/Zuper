@@ -110,3 +110,63 @@
 .redesocial:nth-child(2) span {
   background: #dd4b39;
 }
+
+@media only screen and (max-height: 823px) {
+  .contact {
+    height: 635px;
+  }
+}
+
+@media only screen and (max-height: 731px) {
+  .contact {
+    height: 545px;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .contact {
+    width: 100%;
+  }
+
+  .contact-budget {
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: -40px;
+  }
+
+  .contact-name {
+    padding-top: 35px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: "Kaushan";
+  }
+
+  .contact-mail {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .contact {
+    width: 100%;
+  }
+
+  .contact-budget {
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: -40px;
+  }
+
+  .contact-name {
+    padding-top: 35px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: "Kaushan";
+  }
+
+  .contact-mail {
+    font-size: 17px;
+  }
+}

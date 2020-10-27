@@ -103,3 +103,41 @@
     height: 320px;
   }
 }
+
+@media only screen and (max-width: 411px) {
+  .company {
+    height: 545px;
+  }
+
+  .company-text {
+    font-size: 15px;
+    margin-left: 2px;
+    line-height: 45px;
+    margin-top: 55px;
+  }
+}
+
+@media only screen and (max-height: 823px) {
+  .company {
+    height: 635px;
+  }
+}
+
+@media only screen and (max-height: 731px) {
+  .company {
+    height: 545px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .company {
+    height: 460px;
+  }
+
+  .company-text {
+    font-size: 13px;
+    margin-left: 2px;
+    line-height: 45px;
+    margin-top: 35px;
+  }
+}

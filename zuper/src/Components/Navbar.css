@@ -293,6 +293,16 @@
     margin-right: -5px;
     margin-top: 6px;
   }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .nav-menu {
+    font-size: 25px;
+    height: 420px;
+    grid-gap: 0;
+  }
 }
 
 @media only screen and (max-width: 320px) {
