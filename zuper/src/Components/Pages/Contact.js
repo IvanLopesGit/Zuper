@@ -24,7 +24,7 @@ export default function Contact() {
           <div className="contact-name">Ivan</div>
           <div className="contact-mail">
             E-mail:{" "}
-            <a href="mailto:falecomzuper@gmail.com">contato@zuper.company</a>{" "}
+            <a href="mailto:contato@zuper.company">contato@zuper.company</a>{" "}
           </div>
           <div className="media">
             <div className="redesocial">
